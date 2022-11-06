@@ -1,13 +1,12 @@
 package com.luni.main;
 
-/**
- * Hello world!
- *
- */
+import com.luni.streams.StreamBasics;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        StreamBasics basics = new StreamBasics();
+        basics.getAllTransactionsByYear(2011);
     }
 }
