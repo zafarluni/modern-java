@@ -1,4 +1,4 @@
-package com.luni;
+package com.luni.main;
 
 /**
  * Hello world!
